@@ -29,3 +29,24 @@ To use the components in your app, import them from the `ui` package.
 ```tsx
 import { Button } from "@workspace/ui/components/button"
 ```
+
+## Turbo
+
+To run the turbo dev
+
+```bash
+pnpm turbo run dev
+```
+
+To build turbo, run
+
+```bash
+pnpm turbo run build
+```
+
+To import new component from shadcn.ui, run 
+
+```bash
+pnpm dlx shadcn@2.9.2 add [Component]
+```
+
