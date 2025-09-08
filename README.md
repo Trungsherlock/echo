@@ -50,3 +50,8 @@ To import new component from shadcn.ui, run
 pnpm dlx shadcn@2.9.2 add [Component]
 ```
 
+To add dependencies to package.json, run
+
+```bash
+pnpm -F backend add --save-dev @types/node
+```
